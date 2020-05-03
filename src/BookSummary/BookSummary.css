@@ -1,0 +1,19 @@
+.book-item {
+    display:flex;
+    justify-content:flex-start;
+    align-content:center;
+}
+
+.book-img {
+    flex: 0 0 150px;
+}
+
+.book-img img {
+    border:1px solid #333333;
+    width:130px;
+}
+
+.book-title {
+    font-size:24px;
+    font-weight:bold;
+}

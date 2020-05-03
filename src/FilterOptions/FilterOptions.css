@@ -1,4 +1,11 @@
 .search-filter-options {
 	text-align:center;
 	background-color:#cccccc;
+	padding:5px;
+}
+
+select {
+	font-size:18px;
+	margin-left:15px;
+	margin-right:15px;
 }

@@ -8,9 +8,9 @@ class Form extends Component {
   render(){
     return (
         <section className='section-form'>
-	  <form>
+	  <form onSubmit={e=>this.props.searchSubmit(e) }>
             <SearchBox/>
-  	    <FilterOptions/>
+  	    <FilterOptions filterResults={(filterCat, filter)=>this.props.filterResults(filterCat,filter)}/>
 	  </form>
         </section>
     )

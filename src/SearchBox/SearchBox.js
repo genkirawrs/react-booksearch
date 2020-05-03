@@ -5,9 +5,9 @@ class SearchBox extends Component {
   render(){
     return (
         <div className='form-search-books'>
-	    Search: 
-	    <input />
-	    <button>Search</button>
+	    <label htmlFor='search'>Search:</label>
+	    <input id='search' name='search' placeholder='Search term' required/>
+	    <button type='submit'>Search</button>
         </div>
     )
 

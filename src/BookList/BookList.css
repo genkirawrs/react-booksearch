@@ -1,0 +1,21 @@
+.section-book-results {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.section-book-list {
+	list-style:none;
+}
+
+.section-book-list li {
+	margin-top:10px;
+}
+
+.section-book-list-item {
+	border-bottom:1px solid #666666;
+}
+
+.error {
+	color:red;
+	font-weight:bold;
+}
